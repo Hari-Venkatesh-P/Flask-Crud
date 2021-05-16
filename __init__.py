@@ -9,4 +9,5 @@ app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:root@localhost:54
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
-
+# Connect psql via cmd
+#psql -h localhost -p 5432 -U postgres
